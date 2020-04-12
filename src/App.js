@@ -1,12 +1,20 @@
 import React from 'react';
+import FullPanel from './components/containers/FullPanel.js';
 
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>
-        Hello World!
-      </h1>
+      <FullPanel>
+
+      </FullPanel>
+      <FullPanel>
+        
+      </FullPanel>
+      <FullPanel>
+        
+      </FullPanel>
     </div>
+
   );
 }
 
